@@ -18,4 +18,4 @@ $(LIB) : $(LIB_OBJS)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(BIN) $(LIB) $(BIN_OBJS) $(LIB_OBJS)
+	rm -rf $(BIN) lib$(LIB).a $(BIN_OBJS) $(LIB_OBJS)
